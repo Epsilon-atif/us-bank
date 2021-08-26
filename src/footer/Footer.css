@@ -1,0 +1,158 @@
+.anchors {
+  padding: 1rem;
+  margin: 1rem;
+  color: #fff;
+}
+.footer {
+  background-color: rgb(12, 32, 116);
+  width: 98.7vw;
+  height: 25vh;
+  position: relative;
+}
+.footer-logo {
+  float: right;
+  margin: 10px;
+}
+
+.anchordiv {
+  position: absolute;
+  margin-top: 1rem;
+}
+.footerdesc {
+  color: #fff;
+  display: block;
+  margin-top: 4rem;
+  position: absolute;
+  padding: 10px;
+}
+.footerend {
+  color: #fff;
+  display: block;
+  margin-top: 6rem;
+  position: absolute;
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    width: 130vw;
+  }
+  .anchordiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .anchors {
+    padding: 0.5rem;
+    margin: 0.3rem;
+  }
+  .footer-logo {
+    float: right;
+    margin: 2rem;
+  }
+  .footerdesc {
+    margin-top: 13rem;
+  }
+  .footerend {
+    margin-top: 15rem;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    width: 130vw;
+  }
+  .anchordiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .anchors {
+    padding: 0.4rem;
+    margin: 0.1rem;
+  }
+  .footer-logo {
+    float: right;
+    margin: 2rem;
+  }
+  .footerdesc {
+    margin-top: 9.2rem;
+  }
+  .footerend {
+    margin-top: 10.5rem;
+  }
+}
+@media (max-width: 375px) {
+  .footer {
+    width: 150vw;
+    height: 39vh;
+  }
+  .anchordiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .anchors {
+    padding: 0.4rem;
+    margin: 0.1rem;
+  }
+  .footer-logo {
+    float: right;
+    margin: 2rem;
+  }
+  .footerdesc {
+    margin-top: 9.2rem;
+  }
+  .footerend {
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 414px) {
+  .footer {
+    width: 150vw;
+    height: 33vh;
+  }
+  .anchordiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .anchors {
+    padding: 0.2rem;
+    /* margin:  0.1rem; */
+  }
+  .footer-logo {
+    float: right;
+    margin: 2rem;
+  }
+  .footerdesc {
+    margin-top: 8rem;
+  }
+  .footerend {
+    margin-top: 9rem;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    width: 150vw;
+    height: 42vh;
+  }
+  .anchordiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .anchors {
+    padding: 0.2rem;
+    /* margin:  0.1rem; */
+  }
+  .footer-logo {
+    float: right;
+    margin: 2rem;
+  }
+  .footerdesc {
+    margin-top: 8rem;
+  }
+  .footerend {
+    margin-top: 9rem;
+  }
+}
