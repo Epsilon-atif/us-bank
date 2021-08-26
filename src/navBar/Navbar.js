@@ -6,6 +6,8 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
 import Group5 from "../Group5.png";
 
+// and
+
 function Navbar() {
   return (
     <nav className="navbar">
