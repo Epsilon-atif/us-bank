@@ -14,7 +14,7 @@ function Navbar() {
       <div>
         <div className="menu-bar">
           <div>
-            <FontAwesomeIcon icon={faBars} size="2x" color="white" />
+            <FontAwesomeIcon icon={faBars} size="2x" color="whitesmoke" />
           </div>
           <div style={{ color: "white" }}>Menu</div>
         </div>
